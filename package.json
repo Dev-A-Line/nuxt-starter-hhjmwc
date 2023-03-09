@@ -1,0 +1,38 @@
+{
+  "name": "@itsmnthn/nuxt3-web3-onboard-mvp",
+  "version": "1.0.0",
+  "keywords": [
+    "nuxt3",
+    "web3-onboard"
+  ],
+  "license": "MIT",
+  "author": "Manthankumar Satani<mnthnup@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsmnthn/nuxt3-web3-onboard-mvp",
+    "directory": "./"
+  },
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.1.1",
+    "@esbuild-plugins/node-modules-polyfill": "^0.1.4",
+    "@pinia/nuxt": "^0.4.1",
+    "nuxt": "^3.0.0-rc.8"
+  },
+  "dependencies": {
+    "@web3-onboard/core": "^2.8.3",
+    "@web3-onboard/injected-wallets": "^2.2.0",
+    "@web3-onboard/walletconnect": "^2.1.1",
+    "ethers": "^5.7.0",
+    "pinia": "^2.0.21"
+  },
+  "engines": {
+    "node": "^16.11.0 || ^17.0.0"
+  }
+}
